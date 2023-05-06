@@ -1,0 +1,38 @@
+/* Write your CSS here */
+.home-container {
+  height: 90vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.not-found-icon {
+  height: 270px;
+  width: 270px;
+  margin-top: 0px;
+}
+
+.not-found-container-heading {
+  color: #1e293b;
+  font-size: 40px;
+  font-weight: 500;
+  font-family: 'roboto';
+  margin-bottom: 0px;
+}
+
+.not-found-description {
+  color: #1e293b;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: 'roboto';
+}
+
+.white-color {
+  color: #ffffff;
+}
+
+.dark-bg-color {
+  background-color: #000000;
+}

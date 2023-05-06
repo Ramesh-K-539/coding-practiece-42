@@ -1,0 +1,63 @@
+/* Write your CSS here */
+
+.nav-bar-container {
+  width: 100%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 70px;
+  padding-right: 70px;
+  border-bottom: 1px solid #333333;
+  border-top: 1px solid #333333;
+}
+
+.ul-list {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.list-item {
+  list-style-type: none;
+  margin-left: 0px;
+  padding-left: 0px;
+  display: flex;
+  flex-direction: row;
+}
+
+.logo {
+  height: 55px;
+  width: 55px;
+}
+
+.home-text {
+  color: #000000;
+  font-size: 19px;
+  font-weight: 600;
+  font-family: 'roboto';
+  margin-right: 20px;
+}
+
+.custom-btn {
+  border: none;
+  background-color: transparent;
+  padding: 0px;
+  cursor: pointer;
+  outline: none;
+}
+
+.theme-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.nav-dark-theme {
+  background-color: #333333;
+}
+
+.nav-dark-theme-text {
+  color: #ffffff;
+}
