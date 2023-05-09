@@ -54,8 +54,8 @@ const Navbar = () => (
               </Link>
             </li>
             <li className="list-item">
-              <div data-testid="theme">
                 <button
+                  data-testid="theme"
                   type="button"
                   className="custom-btn"
                   onClick={onChangeTheme}
@@ -70,7 +70,6 @@ const Navbar = () => (
                     className="theme-logo"
                   />
                 </button>
-              </div>
             </li>
           </ul>
         </nav>
