@@ -2,7 +2,6 @@
 
 import './index.css'
 
-import {Link} from 'react-router-dom'
 import ThemeContext from '../../context/ThemeContext'
 
 import Navbar from '../Navbar'
@@ -12,7 +11,6 @@ const Home = () => (
     {value => {
       const {isDarkTheme} = value
       return (
-        <Link to="/" className="link-item">
           <div
             className={
               isDarkTheme ? 'home-bg-container dark-home' : 'home-bg-container'
@@ -40,7 +38,6 @@ const Home = () => (
               </h1>
             </div>
           </div>
-        </Link>
       )
     }}
   </ThemeContext.Consumer>
